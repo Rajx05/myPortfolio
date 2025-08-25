@@ -12,6 +12,10 @@ It’s a simple static site to showcase who I am, what I do, and some of my proj
 - style.css
 - script.js
 
+## 📌 Live Demo
+[View on GitHub Pages](https://Rajx05.github.io/myPortfolio)
+
+
 ## Still under development ! !
 
 its not responsive yet ;(
