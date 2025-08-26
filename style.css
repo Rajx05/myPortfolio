@@ -13,13 +13,20 @@ body{
     font-size: larger;
     background-color: var(--body-color);
     line-height: 200%;
+    margin: 0;
 }
 
 .nav-bar{
     display: flex;
+    font-size: xx-large;
     gap: 10px;
     background-color: var(--nav-color);
     padding-right: 10px;
+    height: 12vh;
+}
+
+.nav-bar a{
+    margin-top: 200px;
 }
 
 .scale{
@@ -63,18 +70,9 @@ a{
     min-width: 2em; */
 }
 .projects{
-    color: var(--text-color);
-    text-align: center;
-    margin: 100px;
-    display: grid;
-    border: 2px solid magenta;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 100px 100px;
-    /* align-items: center; */
+    display: flex;
     justify-content: center;
-    column-gap: 100px;
-    row-gap: 100px;
-    
+    gap: 5vw;
 }
 
 .item{
