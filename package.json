@@ -1,0 +1,24 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "backend for my portfolio site",
+  "homepage": "https://github.com/Rajx05/myPortfolio#readme",
+  "bugs": {
+    "url": "https://github.com/Rajx05/myPortfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajx05/myPortfolio.git"
+  },
+  "license": "ISC",
+  "author": "Rajeev Negi",
+  "type": "commonjs",
+  "main": "script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    border: 1px solid yellow;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    /* padding: 20px 5px; */
+    justify-content: center;
+    height: 400px;
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro{
+    background-color: rgb(169, 203, 233);
+    text-align: center;   
+}
+
+.box{
+    /* display: flex; */
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.box img{
+    height: 100%;
+}

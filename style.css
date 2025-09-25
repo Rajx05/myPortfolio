@@ -18,25 +18,14 @@ body{
 
 .nav-bar{
     display: flex;
-    font-size: xx-large;
-    gap: 10px;
     background-color: var(--nav-color);
-    padding-right: 10px;
-    height: 12vh;
+    gap: 5vw;
+    margin: 0;
+
 }
 
-.nav-bar a{
-    margin-top: 200px;
-}
-
-.scale{
-    transition: transform 0.5s ease;
-}
-
-.scale:hover{
-    transform: scale(1.2,1.3);
-    background-color: var(--body-color);
-    border: 1.5px solid black;
+.nav-bar > li{
+    list-style: none;
 }
 
 .btn{
@@ -46,6 +35,7 @@ body{
 header{
     position: sticky;
     top: 0;
+
 }
 
 
@@ -55,31 +45,45 @@ a{
 }
 
 
-.intro{
+
+.intro-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    text-align: center;
+    border: 1px solid yellow;
+    /* text-align: center; */
     align-items: center;
     color: var(--text-color);
     font-size: xx-large;
-    /* margin: 100px; */
-    line-height: 10vh;
+    margin: 0 auto;
+    line-height: 6vh;
     /* flex: 1 2 200px; */
-    /* max-width: 1em;
-    min-width: 2em; */
+    max-width: 50%;
+    /* min-width: 1em;  */
 }
+
+.intro p{
+    max-width: 55vw;
+}
+
 .projects{
+    margin: 0;
     display: flex;
     justify-content: center;
     gap: 5vw;
 }
 
 .item{
-    border: 2px solid magenta;
+    
+    border: 2px solid var(--text-color);
     
 }
 
-.btn > img{
+.btn {
     cursor: pointer;
+}
+
+footer{
+    color: var(--text-color);
+    text-align: center;
 }
